@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <style>
+        body { background-color: lightcyan;
+  
+}
+
+
+        tr{
+            font: italic small-caps bold 12px/30px Georgia, serif;
+            
+        }
+
+        h1{
+                color: brown;
+        }
+
+        h4{
+                color: crimson;
+        }
+
+
+
+
+    </style>
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FORM</title>
+</head>
+<body>
+    <form action="submit.html" >
+        <center>
+            <h1><i> ORDER FOOD</i></h1>
+        
+      <table border ="0">
+          <tr>
+              <h4>PERSONAL INFORMATION:</h4>
+              <td> Name:</td>
+              <td align ="center"><input type="text" name="Name" size="30" required><font color="red">*</font></td>
+          </tr>
+          <tr>
+            <td>Address:</td>
+            <td align ="center"><input type="text" name="Address" size="30"><font color="red">*</font></td>
+        </tr>
+    
+        <tr>
+            <td>Phone Number:</td>
+            <td align ="center"><input type="number" name="phonenumber" placeholder="+91**********" required size="30"></td>
+        </tr>
+    
+        <tr>
+            <td> Email ID:</td>
+            <td align ="center"><input type="email" name="EmailID" size="30" required placeholder="xyz@xyz.com"><font color="red">*</font></td>
+        </tr>
+    
+        <tr>
+            <td>Emergency Contact Number:</td>
+            <td align ="center"><input type="number" name="Emergencycontactnumber" size="30" placeholder="+91**********"></td>
+        </tr>
+    
+        <tr>
+            <td>Birth Date:</td>
+            <td align ="center"><input type="date" name="Birthdate" size="30" required><font color="red">*</font></td>
+        </tr>
+        <tr>
+            
+            
+            <td >
+                <label for="Stream">MENU</label>
+                </td>
+                <td>
+                <select name="cars" id="cars">
+                  <option value="DVD">ITALIAN</option>
+                  <option value="VCD">CONTINENTAL</option>
+                  <option value="Bluray">CHINESE</option>
+                  <option value="ultra hd">OTHER</option>
+                </select>
+            </td>
+                <br><br>
+            
+        </tr>
+        <tr>
+            <td>Comment:</td>
+            <td align ="center">
+                <textarea name="Reportsto" required size="30">
+                </textarea>
+                </td>
+        </tr>
+        <tr>
+            <td>Gender</td>
+            <td><label for="male" >Male</label>
+  <input type="radio" name="gender" id="male" value="male" checked><br>
+  <label for="female">Female</label>
+  <input type="radio" name="gender" id="female" value="female"><br>
+  <label for="other">Other</label>
+  <input type="radio" name="gender" id="other" value="other"><br><br>
+  
+</td>
+        </tr>
+        
+    
+            
+            <tr>
+                <td>
+            <h3>Social Media</h3>
+        <input type="checkbox" id="Day1" name="Day1" value="Monday">
+      <label for="vehicle1"> Linked-IN</label><br>
+      <input type="checkbox" id="Day2" name="Day2" value="Tuesday">
+      <label for="vehicle2"> Watsapp</label><br>
+      <input type="checkbox" id="Day3" name="Day3" value="Wednesday">
+      <label for="vehicle3"> Twitter</label><br>
+     
+      
+      
+    </td>
+    </tr>
+    
+   
+    
+    
+    <tr>
+    <td>
+           <br><input type="submit" value="Submit">
+            </button>
+            <input type="reset" value="Reset">
+
+    
+        </td>
+    </tr>
+
+  
+        </center>
+    
+      </table>
+    </form>
+
+    <h4><a href="page2_contents.html" target="page2">HOME</a></h4>
+        
+    <h4><a href="Gallery.html" target="page2">FOOD GALLERY</a></h4>
+
+
+  
+    
+</body>
+</html>
